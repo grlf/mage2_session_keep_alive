@@ -4,4 +4,4 @@ $_helper = $this->helper('Greenleaf\SessionKeepAlive\Helper\Data');
 if ($seconds = $_helper->getConfig('refresh_seconds')) :
 ?>
 <div data-mage-init='{"keepalive": {"refresh_seconds": "<?php echo $seconds; ?>"}}'></div>
-<? endif;
+<?php endif;
